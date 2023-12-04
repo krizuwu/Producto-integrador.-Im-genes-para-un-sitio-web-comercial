@@ -1,26 +1,25 @@
 <?php include('header.php'); ?>
 <!-- carousel imagenes -->
 <div class="container-fluid">
-	
-<div id="carouselExampleControls" style="width: 100%; height: 100%" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./photo/header1.jpg" style="width: 100%; height: 100%" class="d-block w-100" alt="...">
+  <div id="carouselExampleControls" style="width: 100%;" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./photo/Imagen1- modificada.jpg" style="width: 100%; height: 400px; object-fit: cover;" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./photo/Imagen1- modificada.jpg" style="width: 100%; height: 400px; object-fit: cover;" class="d-block w-100" alt="...">
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="./photo/header2.jpg" style="width: 100%; height: 100%" class="d-block w-100" alt="...">
-    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
-
 </div>
 	<!-- this is for welcome -->
 	<div class="content">

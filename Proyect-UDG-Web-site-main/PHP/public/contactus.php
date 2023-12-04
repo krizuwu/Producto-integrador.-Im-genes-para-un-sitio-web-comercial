@@ -1,12 +1,9 @@
 <?php include('header.php'); ?>
 
-
-
-
-	<!-- this is for donor registraton -->
-	<div class="contactus"  style="background-color:#fff;">
-<h1 class="text-center" style="background-color:#16bfb2;color: #fff; height: 40px; font-family: 'Poppins', sans-serif;">Contacto </h1>
-
+<!-----Image banner---->
+<div class="text-center">
+  <img src="./photo/Imagen3-editada.jpg" class="img-fluid" alt="Responsive image">
+</div>
 		
 		
 		<div class="main_content">
